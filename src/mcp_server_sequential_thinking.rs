@@ -5,9 +5,9 @@ const PACKAGE_NAME: &str = "@modelcontextprotocol/server-sequential-thinking";
 const SERVER_PATH: &str =
     "node_modules/@modelcontextprotocol/server-sequential-thinking/dist/index.js";
 
-struct GitHubModelContextExtension;
+struct SequentialContextExtension;
 
-impl zed::Extension for GitHubModelContextExtension {
+impl zed::Extension for SequentialContextExtension {
     fn new() -> Self {
         Self
     }
@@ -35,4 +35,4 @@ impl zed::Extension for GitHubModelContextExtension {
     }
 }
 
-zed::register_extension!(GitHubModelContextExtension);
+zed::register_extension!(SequentialContextExtension);
