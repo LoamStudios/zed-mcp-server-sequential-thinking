@@ -2,7 +2,7 @@
 
 This extension integrates [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
 as a context server for [Zed's](https://zed.dev)
-[Assistant.](https://zed.dev/docs/assistant/assistant)
+[Agent Panel.](https://zed.dev/docs/ai/overview)
 
 To install navigate to: **Zed** > **Extensions**. Or use the command palette
 ([macOS](https://github.com/zed-industries/zed/blob/main/assets/keymaps/default-macos.json#L581),
