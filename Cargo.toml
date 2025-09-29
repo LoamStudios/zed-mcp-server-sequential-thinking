@@ -10,4 +10,4 @@ path = "src/mcp_server_sequential_thinking.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.3.0"
+zed_extension_api = "0.7.0"
